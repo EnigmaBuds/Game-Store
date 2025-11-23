@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #27ac5e;
+    --font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-size-base: 16px;
+    --spacing-unit: 8px;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+}
+
+
+
+button {
+    background-color: var(--secondary-color);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+button:hover {
+    background-color: darken(var(--secondary-color), 10%);
+}
+
